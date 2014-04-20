@@ -1,12 +1,11 @@
 
-
 ## Make cache matrix, get ( set ) inv.
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(newfunction)
   {
-  x <<- newfucntion
+  x <<- newfunction
   p <<- NULL
   }
   get <- function() x
